@@ -141,3 +141,59 @@ Portal 被攻击时会对攻击者进行反击，在 Portal 较为密集的区�
 <img src="http://ghostflying-static.qiniudn.com/ingress_attack_AttackResult.png" width="192" height="320" />
 
 [ingress_items_intro]: https://github.com/GhostFlying/ingress-tutorials/blob/master/ItemsIntro.md
+
+
+Ingress XM Anomaly Guide（未完成）
+========
+本部分来自http://www.zhihu.com/people/lanyusea
+什么是 Ingress XM Anomaly ？
+--------------
+<img src="https://lh4.googleusercontent.com/-bMwhgemIzQ0/VNy7w41s_WI/AAAAAAAAIII/gsui5CTu0ZM/s0-d-ip/15%2B-%2B1" width="510" height="600" />
+
+准备阶段
+--------------
+活动开始前，Ingress 会公布城市内比赛的三个区域范围以及所属的cell，同时公开活动规则和计分规则。玩家会提前组织报名，分配好任务。
+<img src="http://pic1.zhimg.com/2fc28b4b6bba7a9bb2a7f210424aa5d4_b.jpg" />
+
+进行时
+--------------
+每轮活动前5min（或15min），NIA会宣布区域内的volatile portal，capture他们拿到的分值更高（一般是10倍于普通portal）。其余的portal就是普通的 non-volatile portal 了。在Darsana之前，volatile公布是通过Google Doc，官方会在比赛开始前5min将Google Doc的地址通过Google+ 公开分享，大家要主动去查看然后进行人员的适当调动。在Darsana时候volatile已经可以直接在 Ingress 游戏界面和 intel 地图内显示了，方便很多。如图：
+<img src="http://pic3.zhimg.com/7dfd70d9c34e0b39119588d6a0dcba12_b.jpg" />
+<img src="http://pic3.zhimg.com/12d5cb9ba966ef361992ef9e297ab3f6_b.jpg" />
+
+技巧
+--------------
+#从参与者的角度
+
+带足你的装备，如果你是没有既定角色（炸弹手，depolyer）的白板，那建议xmp/res/cube 尽量 1000/800/200 配置。portal key尽量减少装备。mod理论上很重要，但实际上除非出现压倒性优势，不然根本没有机会depoly（蓝绿白切的太快了），或者下去就成灰了。
+cube不需要太多，因为绝大部分的xm消耗是使用道具所致，在被portal反击而损失xm无需考虑。
+
+xmp要8级，但res低级要好过高级，因为算分的规则是占住就有分，不看portal等级。
+并且在如下图的环境中，不论多少级的res基本上都顶不住1s，但高等级却需要更多的xm你会更加频繁切回菜单使用power cube。
+<img src="http://pic1.zhimg.com/e3d1bc55bf86c6a099735af27a617f34_b.jpg" />
+同时要注意必须要主动点按portal以更新数据，这样才可以保证可以继续进行操作。
+
+#从调度者的角度
+
+先手优势非常重要，基本上这轮开始前portal是哪个阵营的哪个阵营就会胜利。而且在 Jarvis／ADA 加上了 1h 的 cd 之后先手优势更加明显，Cassandra13 的时候绿军在活动开始的整点 Jarvis 掉蓝portal 然后无差别 fire xmp。规则修改后的 Recursion，绿军的 Jarvis 的行动全部已失败告终，因为上一个小时已经 Jarvis/ADA 过了。在 Helios 的时候14点是第一轮，12:55 蓝军将所有蓝portal Jarvis掉，等到13:55再 ADA 返。
+
+参考信息
+-------------
+报名表：https://docs.google.com/forms/d/16KaFtTOvmU2GhZl4ehUm0l82SQ5WOvSN3O9g3ohbBwY/viewform?c=0&w=1
+
+#职位名称
+
+ 就仅仅是参加过而已, 没有具体职位(General anomaly experience)
+ 计划人(Planning)
+ 认证人员, 检查某位特勤是否可信(Vetting)
+ 地图制作员(Map Making)
+ 调度员(Dispatch)
+ Intel 情报人(Intel)
+ Cluster 作战小队(Cluster Teams)
+ Volatile 作战小队(Volatile Teams)
+ 自行车作战小队(Bike Team)
+ Cluster 连 Field 小队(Cluster Fielding, Linking)
+ 巨型 Field 计划队(BAF Fielding)
+ 特别行动组(Special Ops)
+ 风中一匹狼(Lone Wolf)
+
